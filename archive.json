@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-11-06T01:49:50.720888+00:00",
+  "timestamp": "2025-11-09T01:52:42.297423+00:00",
   "repo": "aaronpk/oauth-dpop-device-flow",
   "labels": [
     {
@@ -49,7 +49,24 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 3,
+      "id": "I_kwDOPzI3P87WoB4r",
+      "title": "Optional AT binding?",
+      "url": "https://github.com/aaronpk/oauth-dpop-device-flow/issues/3",
+      "state": "OPEN",
+      "author": "njwatson32",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The original DPoP spec contains the wording:\n\n```\nAn authorization server MAY elect to issue access tokens that are not DPoP bound, which is signaled to the client with a value of Bearer in the token_type parameter of the access token response per [RFC6750].\n```\n\nThis draft says \"The issued access token MUST be bound to the DPoP public key\". Can we soften this language to allow for RT binding only as in the original spec?",
+      "createdAt": "2025-11-07T15:22:15Z",
+      "updatedAt": "2025-11-07T15:22:15Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": [
     {
       "number": 1,
